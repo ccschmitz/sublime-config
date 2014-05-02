@@ -1,6 +1,6 @@
 # Sublime Config
 
-Everyone likes to compare their Vim config, why don't more people share their Sublime config?
+Everyone likes to compare their Vim config but I don't see anyone sharing their Sublime configs. Sup wit dat?
 
 ## Use This Config
 
