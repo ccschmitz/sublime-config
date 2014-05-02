@@ -1,0 +1,22 @@
+[
+  // Advanced new file
+  {"keys": ["super+alt+shift+n"], "command": "advanced_new_file"},
+  {"keys": ["super+alt+shift+r"], "command": "advanced_new_file", "args": {"rename": true}},
+
+  // Switch casing
+  { "keys": ["super+k", "super+s"], "command": "swap_case" },
+  { "keys": ["super+k", "super+t"], "command": "title_case" },
+
+  // Ruby tags
+  { "keys": ["super+5"], "command": "erb", "context": [{ "key": "selector", "operator": "equal", "operand": "text.html.ruby, text.haml, source.yaml, source.css, source.scss, source.js, source.coffee" }] },
+
+  // RubyTest override
+  { "keys": ["super+shift+t"], "command": "reopen_last_file" },
+  { "keys": ["super+shift+y"], "command": "run_all_ruby_test" }, // test file
+
+  // Emmet Mappings
+  { "keys": ["alt+w"], "command": "wrap_as_you_type" }, // wrap with tag
+
+  // Goto stuffs
+  { "keys": ["alt+d"], "command": "goto_definition" }
+]
